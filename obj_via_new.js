@@ -1,7 +1,7 @@
 function Calculator() {
     this.read = function() {
-        this.a = +prompt('a?','');
-        this.b = +prompt('b?','');
+        this.a = +prompt('a?', 0);
+        this.b = +prompt('b?', 0);
     };
     this.sum = function() {
         return this.a + this.b
