@@ -16,3 +16,15 @@ console.log(sumTo(100)) // = 5050
 // sumTo(4) = 4 + 3 + 2 + 1 = 10
 // ...
 // sumTo(100) = 100 + 99 + ... + 2 + 1 = 5050
+
+// function factorial(n) {
+//   if (n === 1) {
+//     return 1
+//   } else {
+//     return n * factorial(n-1)
+//   }
+// }
+
+const factorial = n => (n === 1) ? 1 : n * factorial(n -1)
+
+console.log(factorial(5))
