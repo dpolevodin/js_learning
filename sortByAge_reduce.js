@@ -8,6 +8,7 @@ let arr = [ vasya, petya, masha ];
 
 alert( getAverageAge(arr) ); // (25 + 30 + 29) / 3 = 28
 
+
 // function getAverageAge(arr) {
 //   let averAgeArr = arr.map(user => user.age)
 //   result = 0
@@ -16,6 +17,7 @@ alert( getAverageAge(arr) ); // (25 + 30 + 29) / 3 = 28
 //   }
 //   return result / averAgeArr.length
 // }
+
 
 function getAverageAge(arr) {
   return arr.reduce((prev, user) => prev + user.age, 0) / arr.length
